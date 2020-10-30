@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Install Angular Material
+
+`ng add @angular/material`
+
+Readmore @ [Angular Material Pages](https://material.angular.io/guide/getting-started).
+
+This project includes 
+> A API service file for HTTP calls 
+> A home and error page 
+> A Data service for data communciton among the components
+
