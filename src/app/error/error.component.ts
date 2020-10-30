@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ServiceService } from '../service.service';
 
 @Component({
   selector: 'app-error',
@@ -10,13 +9,10 @@ import { ServiceService } from '../service.service';
 export class ErrorComponent implements OnInit {
 
 
-  constructor(private titleService: ServiceService, private router: Router) {
+  constructor(private router: Router) {
   }
 
-  ngOnInit() {
-    this.titleService.updateTitle('Error');
-
-  }
+  ngOnInit() {}
   go() {
     this.router.navigate(['home']);
 
